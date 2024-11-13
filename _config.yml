@@ -6,3 +6,9 @@ url: https://tabarasaka.github.io/dsp_praat
 
 aux_links:
   Template Repository: https://github.com/tabarasaka/dsp_praat
+  
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  mathjax:
+    cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
