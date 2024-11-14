@@ -1,3 +1,8 @@
+---
+title: Creating Complex Sounds from Simple Sine Waves
+layout: default
+---
+
 # Creating Complex Sounds from Simple Sine Waves in Praat
 
 ### Experimental Phonetics (Autumn 2024)
