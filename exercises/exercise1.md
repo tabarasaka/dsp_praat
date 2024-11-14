@@ -45,22 +45,25 @@ Here’s an example of what sine and sawtooth waves look like:
    ```mathematica
    0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x))
 
-Step 3: Adding More Harmonics
+## Step 3: Adding More Harmonics
+
 Now, we will continue adding more sine waves at even higher frequencies. Each new sine wave (harmonic) will be a multiple of the base frequency (440 Hz) and will have a smaller amplitude.
 Use the following formula to add the second harmonic:
-mathematica
-Copy code
-0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + (1/3) * sin(2 * pi * 1320 * x))
+   ```mathematica
+   0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + (1/3) * sin(2 * pi * 1320 * x))
+
 Continue this process by adding more harmonics up to around 10. Here’s how you would add more harmonics:
-mathematica
-Copy code
-0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + 
-       (1/3) * sin(2 * pi * 1320 * x) + (1/4) * sin(2 * pi * 1760 * x) + 
-       (1/5) * sin(2 * pi * 2200 * x) + (1/6) * sin(2 * pi * 2640 * x) +
-       (1/7) * sin(2 * pi * 3080 * x) + (1/8) * sin(2 * pi * 3520 * x) +
-       (1/9) * sin(2 * pi * 3960 * x) + (1/10) * sin(2 * pi * 4400 * x))
+   ```mathematica
+   0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + 
+         (1/3) * sin(2 * pi * 1320 * x) + (1/4) * sin(2 * pi * 1760 * x) + 
+         (1/5) * sin(2 * pi * 2200 * x) + (1/6) * sin(2 * pi * 2640 * x) +
+         (1/7) * sin(2 * pi * 3080 * x) + (1/8) * sin(2 * pi * 3520 * x) +
+         (1/9) * sin(2 * pi * 3960 * x) + (1/10) * sin(2 * pi * 4400 * x))
+
 After adding several harmonics, the sound will begin to change in a more dramatic way. Continue to play the sound and observe how it changes.
-Step 4: Visualizing and Discovering a New Wave Shape
+
+## Step 4: Visualizing and Discovering a New Wave Shape
+
 Use Praat’s View and Edit tool to open the waveform.
 Take a screenshot of the waveform after each stage:
 After adding one sine wave,
