@@ -57,6 +57,7 @@ Use the following formula to add the second harmonic:
    ```mathematica
    0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + (1/3) * sin(2 * pi * 1320 * x))
 
+
 Continue this process by adding more harmonics up to around 10. Here’s how you would add more harmonics:
    ```mathematica
    0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + 
