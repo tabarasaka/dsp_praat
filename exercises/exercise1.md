@@ -63,7 +63,8 @@ Continue this process by adding more harmonics up to around 10. Here’s how you
          (1/3) * sin(2 * pi * 1320 * x) + (1/4) * sin(2 * pi * 1760 * x) + 
          (1/5) * sin(2 * pi * 2200 * x) + (1/6) * sin(2 * pi * 2640 * x) +
          (1/7) * sin(2 * pi * 3080 * x) + (1/8) * sin(2 * pi * 3520 * x) +
-         (1/9) * sin(2 * pi * 3960 * x) + (1/10) * sin(2 * pi * 4400 * x))
+         (1/9) * sin(2 * pi * 3960 * x) + (1/10) * sin(2 * pi * 4400 * x)) ```
+
 
 After adding several harmonics, the sound will begin to change in a more dramatic way. Continue to play the sound and observe how it changes.
 
