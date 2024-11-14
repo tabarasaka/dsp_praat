@@ -47,16 +47,16 @@ Here’s an example of what sine and sawtooth waves look like:
 1. Next, we’ll add another sine wave that has a higher frequency, known as a harmonic.
 2. Go back to `New > Sound > Create Sound from formula...`.
 3. In the dialog box, use the following formula to add the first harmonic:
-   ```mathematica
+```mathematica
    0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x))
-
+```
 ## Step 3: Adding More Harmonics
 
 Now, we will continue adding more sine waves at even higher frequencies. Each new sine wave (harmonic) will be a multiple of the base frequency (440 Hz) and will have a smaller amplitude.
 Use the following formula to add the second harmonic:
    ```mathematica
    0.5 * (sin(2 * pi * 440 * x) + (1/2) * sin(2 * pi * 880 * x) + (1/3) * sin(2 * pi * 1320 * x))
-
+```
 
 Continue this process by adding more harmonics up to around 10. Here’s how you would add more harmonics:
    ```mathematica
@@ -65,7 +65,7 @@ Continue this process by adding more harmonics up to around 10. Here’s how you
          (1/5) * sin(2 * pi * 2200 * x) + (1/6) * sin(2 * pi * 2640 * x) +
          (1/7) * sin(2 * pi * 3080 * x) + (1/8) * sin(2 * pi * 3520 * x) +
          (1/9) * sin(2 * pi * 3960 * x) + (1/10) * sin(2 * pi * 4400 * x)) ```
-
+```
 
 After adding several harmonics, the sound will begin to change in a more dramatic way. Continue to play the sound and observe how it changes.
 
@@ -79,7 +79,9 @@ After adding three sine waves,
 and so on.
 Observation: What do you notice about the shape of the waveform as you add more sine waves?
 After adding enough harmonics, the waveform will resemble what is known as a sawtooth wave. This exercise demonstrates that a sawtooth wave is a combination of many sine waves of different frequencies.
-Deliverables
+
+## Deliverables
+
 Submit screenshots of the waveform at different stages:
 After adding one sine wave,
 After adding two sine waves,
@@ -90,7 +92,8 @@ What do you observe in the shape of the waveform?
 How does the sound evolve as you introduce more harmonics?
 Submission Deadline: 19 October 2024.
 
-Conclusion
+## Conclusion
+
 By the end of this exercise, you will have learned how to create complex sounds by adding sine waves and visualizing their waveforms. You will also have a practical understanding of Fourier's theorem, which tells us that any periodic waveform can be represented as the sum of sine waves with different frequencies and amplitudes.
 
 In particular, for a sawtooth wave, we can say that it is created by adding sine waves at each successive integer multiple of the fundamental frequency. The amplitude of each sine wave is inversely proportional to its harmonic number (or partial number). This means that as you go up in frequency, the contribution of each sine wave to the overall shape of the sawtooth wave decreases, resulting in the characteristic sharp edges of the waveform.
