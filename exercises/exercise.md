@@ -44,9 +44,9 @@ Before applying the ADSR envelope, it’s helpful to understand what an ADSR env
 #### What is ADSR?
 An **ADSR envelope** represents four phases in the amplitude shaping of a sound:
 - **Attack** – Time taken for the sound to reach its peak from silence.
-- **Decay** – Time taken to reach the sustain level from the peak.
-- **Sustain** – Amplitude level maintained while the sound is held.
-- **Release** – Time taken to fade out to silence after the sound is released.
+- **Decay** – Time taken to reach a steady stater or "sustain level" from the peak.
+- **Sustain** – The amplitude level that is maintained for a certain duration after the initial changes in the attack and decay phases.
+- **Release** – Time taken to fade out to silence after the sustain phase ends.
 
 ![ADSR Envelope Diagram](adsr_diagram.png)
 
