@@ -1,3 +1,9 @@
+---
+title: Exploring Beat Frequency and more
+layout: default
+---
+
+# Exercise 3: Exploring Beat Frequency
 # Objective
 
 The goal of this exercise is to explore the phenomenon of beat frequency
