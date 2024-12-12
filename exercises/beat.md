@@ -1,3 +1,8 @@
+---
+title: Exploring Beat Frequency
+layout: default
+---
+
 # Exercise 3: Exploring Beat Frequency
 
 ## Objective
