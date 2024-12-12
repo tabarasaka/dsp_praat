@@ -22,12 +22,21 @@ loud and soft. This fluctuation is known as **beats**. The phenomenon
 arises from the constructive and destructive interference between the
 two waves.  
 When two waves are expressed mathematically as:
+When two waves are expressed mathematically as:
 
-*x*<sub>1</sub> = *A*cos (*ω*<sub>1</sub>*t*)  and  *x*<sub>2</sub> = *A*cos (*ω*<sub>2</sub>*t*),
+<div align="center">
+
+*x*<sub>1</sub> = *A*cos(*ω*<sub>1</sub>*t*) and *x*<sub>2</sub> = *A*cos(*ω*<sub>2</sub>*t*),
+
+</div>
 
 their sum can be simplified using a trigonometric identity, leading to:
 
-*x* = *x*<sub>1</sub> + *x*<sub>2</sub> = 2*A*cos (*ω*<sub>mod</sub>*t*)cos (*ω*<sub>avg</sub>*t*),
+<div align="center">
+
+*x* = *x*<sub>1</sub> + *x*<sub>2</sub> = 2*A*cos(*ω*<sub>mod</sub>*t*)cos(*ω*<sub>avg</sub>*t*),
+
+</div>
 
 where:
 
@@ -39,7 +48,13 @@ where:
 
 For beat frequencies to occur, the two angular frequencies must be close
 in value. Mathematically, this condition can be expressed as:
+
+<div align="center">
+    
 \|*ω*<sub>1</sub> − *ω*<sub>2</sub>\| ≪ *ω*<sub>1</sub> + *ω*<sub>2</sub>
+
+</div>
+
 This implies that the average angular frequency, *ω*<sub>avg</sub>, is
 approximately equal to *ω*<sub>1</sub> or *ω*<sub>2</sub>, while the
 modulation angular frequency, *ω*<sub>mod</sub>, is very small,
@@ -49,9 +64,13 @@ product 2*A*cos (*ω*<sub>mod</sub>*t*) provides a slowly varying
 amplitude for the cos (*ω*<sub>avg</sub>*t*) function.
 
 The beat frequency is found to be twice the modulation frequency,
-*f*<sub>mod</sub>, where
-$f\_{\text{mod}} = \frac{\omega\_{\text{mod}}}{2\pi}$. Thus, we have:
+*f*<sub>mod</sub>, where $f\_{\text{mod}} = \frac{\omega\_{\text{mod}}}{2\pi}$. Thus, we have:
+
+<div align="center">
+    
 *f*<sub>beat</sub> = 2 ⋅ *f*<sub>mod</sub> = *f*<sub>1</sub> − *f*<sub>2</sub>
+    
+</div>
 
 This means the rate of amplitude modulation (i.e., the number of beats
 per second) corresponds to the absolute frequency difference between the
