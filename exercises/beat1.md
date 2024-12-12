@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Exercise 3: Exploring Beat Frequency
-# Objective
+## Objective
 
 The goal of this exercise is to explore the phenomenon of beat frequency
 using stereo sounds in Praat. You will combine sine waves with slightly
@@ -14,7 +14,7 @@ the sound is created. **There is no submission required; focus on
 experimenting and understanding.** You are expected to know the basic
 concept of beat frequencies for your final exam.
 
-# Understanding Beat Frequency
+## Understanding Beat Frequency
 
 Beat frequencies occur when two sound waves with slightly different
 frequencies interfere, creating a tone that fluctuates in volume between
@@ -70,7 +70,7 @@ figure.
 data-label="fig:beat"></span></p>
 </figure>
 
-# Exercise Instructions
+## Exercise Instructions
 
 Follow the steps below to create and explore beat frequencies in Praat.
 
