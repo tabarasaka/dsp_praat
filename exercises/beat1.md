@@ -21,7 +21,47 @@ frequencies interfere, creating a tone that fluctuates in volume between
 loud and soft. This fluctuation is known as **beats**. The phenomenon
 arises from the constructive and destructive interference between the
 two waves.  
+
 When two waves are expressed mathematically as:
+
+$$
+x_1 = A \cos(\omega_1 t) \quad \text{and} \quad x_2 = A \cos(\omega_2 t),
+$$
+
+their sum can be simplified using a trigonometric identity, leading to:
+
+$$
+x = x_1 + x_2 = 2A \cos(\omega_{\text{mod}} t) \cos(\omega_{\text{avg}} t),
+$$
+
+where:
+
+- $\omega_{\text{avg}} = \frac{\omega_1 + \omega_2}{2}$ is the average angular frequency,
+- $\omega_{\text{mod}} = \frac{\omega_1 - \omega_2}{2}$ is the modulation angular frequency.
+
+For beat frequencies to occur, the two angular frequencies must be close in value. Mathematically, this condition can be expressed as:
+
+$$
+|\omega_1 - \omega_2| \ll \omega_1 + \omega_2.
+$$
+
+This implies that the average angular frequency, $\omega_{\text{avg}}$, is approximately equal to $\omega_1$ or $\omega_2$, while the modulation angular frequency, $\omega_{\text{mod}}$, is very small, approaching zero. As a result, the $\cos(\omega_{\text{mod}} t)$ term oscillates very slowly. Combined with the amplitude term $2A$, the product $2A \cos(\omega_{\text{mod}} t)$ provides a slowly varying amplitude for the $\cos(\omega_{\text{avg}} t)$ function.
+
+The beat frequency is found to be twice the modulation frequency, $f_{\text{mod}}$, where:
+
+$$
+f_{\text{mod}} = \frac{\omega_{\text{mod}}}{2\pi}.
+$$
+
+Thus, we have:
+
+$$
+f_{\text{beat}} = 2 \cdot f_{\text{mod}} = f_1 - f_2.
+$$
+
+This means the rate of amplitude modulation (i.e., the number of beats per second) corresponds to the absolute frequency difference between the two waves.
+
+
 When two waves are expressed mathematically as:
 
 <div align="center">
