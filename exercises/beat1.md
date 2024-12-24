@@ -155,7 +155,9 @@ Follow the steps below to create and explore beat frequencies in Praat.
 -   **Sampling frequency (Hz):** `44100`
 
 -   **Formula:**
-    `1/2 * sin(2*pi*200*x) + 1/2 * sin(2*pi*205*x)`
+    ```mathematica
+    1/2 * sin(2*pi*200*x) + 1/2 * sin(2*pi*205*x)
+    ```
 
 . Play the sound and examine the waveform. Since you just added two sine
 waves with very close frequencies (200 Hz and 205 Hz), the resulting
@@ -181,7 +183,9 @@ both channels because the sounds in both channels are identical.
 -   **Sampling frequency (Hz):** `44100`
 
 -   **Formula:**
-    `if row = 1 then 1/2 * sin(2*pi*200*x) else 1/2 * sin(2*pi*205*x) endif`
+    ```mathematica
+    if row = 1 then 1/2 * sin(2*pi*200*x) else 1/2 * sin(2*pi*205*x) endif
+    ```
 
 The conditional expression in the formula directs channel 1 to have a
 frequency of 200 Hz and channel 2 to have 205 Hz.
@@ -191,16 +195,16 @@ frequency of 200 Hz and channel 2 to have 205 Hz.
 1\. Listen to the sound using stereo speakers. You should hear beats
 caused by the interaction of the two frequencies.
 
-. Use headphones and listen separately with the left ear and then with
+2\. Use headphones and listen separately with the left ear and then with
 the right ear. You will hear slightly different tones in each channel.
 
-. Listen with both ears using headphones. You will perceive beats, which
+3\. Listen with both ears using headphones. You will perceive beats, which
 are not in the audio signal but are constructed in your brain. In
 contrast to the beats in the previous step, which were present in the
 audio signals reaching your ears, these beats are created solely by your
 brain.
 
-. Experiment with other values to create beats with different
+4\. Experiment with other values to create beats with different
 frequencies. For example, try to create beats with 1 Hz and 15 Hz, and
 observe how the beat frequency changes as you adjust the difference
 between the two frequencies.
