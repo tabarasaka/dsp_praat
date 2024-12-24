@@ -144,20 +144,20 @@ Follow the steps below to create and explore beat frequencies in Praat.
 
 2. Use the following parameters in the pop-up window:
 
--   **Name:** `stereoIdentical`
+   - **Name:** `stereoIdentical`
 
--   **Number of channels:** `Stereo`
+   - **Number of channels:** `Stereo`
 
--   **Start time (s):** `0`
+   - **Start time (s):** `0`
 
--   **End time (s):** `2`
+   - **End time (s):** `2`
 
--   **Sampling frequency (Hz):** `44100`
+   - **Sampling frequency (Hz):** `44100`
 
--   **Formula:**
-    ```mathematica
-    1/2 * sin(2*pi*200*x) + 1/2 * sin(2*pi*205*x)
-    ```
+   - **Formula:**
+        ```mathematica
+        1/2 * sin(2*pi*200*x) + 1/2 * sin(2*pi*205*x)
+        ```
 
 3. Play the sound and examine the waveform. Since you just added two sine
 waves with very close frequencies (200 Hz and 205 Hz), the resulting
