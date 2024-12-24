@@ -139,10 +139,10 @@ Follow the steps below to create and explore beat frequencies in Praat.
 
 ## Step 1: Create Stereo Sound with Identical Channels
 
-1\. Open Praat and go to `New` → `Sound` →
+1. Open Praat and go to `New` → `Sound` →
 `Create Sound from formula...`.
 
-. Use the following parameters in the pop-up window:
+2. Use the following parameters in the pop-up window:
 
 -   **Name:** `stereoIdentical`
 
@@ -159,7 +159,7 @@ Follow the steps below to create and explore beat frequencies in Praat.
     1/2 * sin(2*pi*200*x) + 1/2 * sin(2*pi*205*x)
     ```
 
-. Play the sound and examine the waveform. Since you just added two sine
+3. Play the sound and examine the waveform. Since you just added two sine
 waves with very close frequencies (200 Hz and 205 Hz), the resulting
 sound has a beat frequency of 205 − 200 = 5 Hz. This beat frequency is
 perceived as periodic variations in the intensity of the sound.
@@ -168,9 +168,9 @@ both channels because the sounds in both channels are identical.
 
 ## Step 2: Create a Stereo Sound with Different Frequencies in Each Channel
 
-1\. Go to `New` → `Sound` → `Create Sound from formula...`.
+1. Go to `New` → `Sound` → `Create Sound from formula...`.
 
-. Use the following parameters in the pop-up window:
+2. Use the following parameters in the pop-up window:
 
 -   **Name:** `stereoDifferent`
 
@@ -192,19 +192,19 @@ frequency of 200 Hz and channel 2 to have 205 Hz.
 
 ## Step 3: Listen with Headphones and Compare Perception
 
-1\. Listen to the sound using stereo speakers. You should hear beats
+1. Listen to the sound using stereo speakers. You should hear beats
 caused by the interaction of the two frequencies.
 
-2\. Use headphones and listen separately with the left ear and then with
+2. Use headphones and listen separately with the left ear and then with
 the right ear. You will hear slightly different tones in each channel.
 
-3\. Listen with both ears using headphones. You will perceive beats, which
+3. Listen with both ears using headphones. You will perceive beats, which
 are not in the audio signal but are constructed in your brain. In
 contrast to the beats in the previous step, which were present in the
 audio signals reaching your ears, these beats are created solely by your
 brain.
 
-4\. Experiment with other values to create beats with different
+4. Experiment with other values to create beats with different
 frequencies. For example, try to create beats with 1 Hz and 15 Hz, and
 observe how the beat frequency changes as you adjust the difference
 between the two frequencies.
